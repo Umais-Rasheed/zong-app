@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.fourg-title{
+   line-height: normal;
+    color: #e40076;
+    font-weight: 700;
+    font-size: 41px;
+    text-align: right;
+    padding-right: 30px;
+}
+.fourgdec-title{
+    color: #e40076;
+    text-align: right;
+    padding-right: 30px;
+}
+.fourg-button{
+    border: 1px solid  #e40076;
+    border-radius: 26px;
+    font-size: 1.0625rem;
+    color: #e40076;
+    padding: 8px 27px;
+}
+.product{
+    text-align: end;
+    font-weight: 600;
+    width: 761px;
+    font-size: 2.7rem;
+    color: #f0f0f0;
+}
+.text {
+    font-size: 15px;
+    color: #f0f0f0;
+}

@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.image-container {
+    position: relative;
+    width: 674px;
+    height: 400px;
+    overflow: hidden;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+.image-container:hover .image {
+    transform: scale(1.2); /* Scale up on hover */
+}
+ /* Overlay */
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, ); 
+}
+/* Text on the overlay */
+.overlay-text {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.business-title{
+    line-height: normal;
+    display: flex;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 30px;
+}
+.state-title{
+    width: 49%;
+    font-size: 14px;
+    display: flex;
+    text-align: right;
+    padding-right: 30px
+}
+ .business-button{
+    color: #f0f0f0;
+    margin-right: 30px;
+    border: 1px solid #133b4110; 
+}
+ .business-button{
+    border: 1px solid #e40076;
+    border-radius: 26px;
+    color: #e40076;
+    font-size: 17px;
+    font-size: 1.0625rem;
+    margin-top: 10px;
+    padding: 6px 40px;
+    text-transform: none;
+}
+/*  */
+.image-cont {
+    height: 600px;
+    position: relative;
+    width: 100%;
+    max-width: 1350px; 
+    margin: 0 auto;
+}
+.image-cont img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.text-container {
+    position: absolute;
+    top: 47%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    padding: 20px;
+}
+.headingproduct{    
+    text-align: end;
+    font-weight: 600;
+    width: 761px;
+    font-size: 2.7rem;
+    color: #f0f0f0;
+}
+.text {
+   
+    font-size: 15px;
+    color: #f0f0f0;
+   
+}
+.text-container
+.product_button{
+  
+    border-radius: 28px;
+    padding: 6px 22px;
+    text-align: center;
+    text-decoration: none;  
+    font-size: 17px;
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid #ffffff;
+}
+.downloadtitle {
+    width: 49%;
+    font-size: 32px;
+    display: flex;
+    text-align: right;
+    padding-right: 30px;
+    color: #e40076;
+    font-weight: 700;
+}
+.my-custom-bg-color {
+    background-color: #e40076; 
+    width: 100%;
+    height: 60%;
+}
+.imgconnect{
+    margin: 87px;
+}
+.zongcoo{
+    font-size: 32px;
+    display: flex;
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: 148px;
+    width: 60%;
+}
+.coo-button {
+    margin-left: 208px;
+    border: 3px solid #fbfbfb;
+    border-radius: 26px;
+    font-size: 1.0625rem;
+    padding: 8px 27px;  
+}
+
+
+
+
+
+
+
+
+
+
+

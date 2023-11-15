@@ -1,0 +1,56 @@
+
+.bg_secondary{
+    background-color: #8cc63e;
+    border-radius: 40px 40px 0 0;
+}
+.hedonline{
+    font-size: 41px;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    margin-top: 34px;
+    padding-left: 130px;
+}
+.pegonline {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 83px;
+}
+.onclick{
+    font-size: 27px;
+    display: flex;
+    color: #e40076;
+    font-weight: 500;
+    margin-top: 34px;
+    padding-left: 130px;
+}
+.onclick:hover{
+    color:#f0f0f0;
+}
+.bg_middle{
+    background-color: aliceblue;
+    border-radius: 40px 40px 40px 40px;
+    color: #8b9999;
+    margin-bottom: 80px;
+    width: 80%;
+}
+.form-submit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 30px;
+}
+ .submit-button{
+    border: 1px solid #e40076;
+    border-radius: 26px;
+    color: #e40076;
+    font-size: 1.0625rem;
+    margin-top: 10px;
+    padding: 8px 45px;
+}
+
+
